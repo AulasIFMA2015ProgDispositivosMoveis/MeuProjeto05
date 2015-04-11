@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aula.meuprojeto05.Principal" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/museu"
+        android:title="@string/museu"
+        app:showAsAction="always"
+        android:icon="@drawable/museu"
+        />
+    
+    <item
+        android:id="@+id/nuvem"
+        android:title="@string/nuvem"
+        app:showAsAction="always"
+        android:icon="@drawable/nuvem"
+        />
+    
+    <item
+        android:id="@+id/sair"
+        android:title="@string/sair"
+        app:showAsAction="never"/>
+    
+    
+    
+</menu>

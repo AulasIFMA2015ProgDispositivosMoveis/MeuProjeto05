@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MeuProjeto05</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="museu">Museu</string>
+    <string name="nuvem">Nuvem</string>
+    <string name="sair">Sair</string>
+
+</resources>
