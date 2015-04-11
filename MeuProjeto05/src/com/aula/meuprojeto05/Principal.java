@@ -16,8 +16,8 @@ public class Principal extends ActionBarActivity {
         setContentView(R.layout.activity_principal);
         //Recuperamos a ActionBar disponível na Activity
         ActionBar barra = getSupportActionBar();
-        //
-        barra.setDisplayHomeAsUpEnabled(true);
+        //Habilita o Up Navigation (aquela setinha ao lado do ícone da aplicação)
+        barra.setDisplayHomeAsUpEnabled(true); 
         //Incluímos o ícone da nossa aplicação na ActionBar
         barra.setHomeAsUpIndicator(R.drawable.ic_launcher);
         
